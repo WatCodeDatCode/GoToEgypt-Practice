@@ -50,7 +50,6 @@ div h2, div p {
   height: auto;
   color: #313733
 }
-
 /***********CLASS SELECTORS***********/
 .center {
   text-align: center;
@@ -71,6 +70,10 @@ a:hover {
 .article {
   color: #313733;
   text-decoration: underline;
+}
+
+.height {
+  height: inherit;
 }
 
 .hero__image {
@@ -96,12 +99,10 @@ a:hover {
   font-size: 2em;
 }
 
-
-
 .logo, .burger__menu {
   margin-right: auto;
   display: inline;
-  margin-top: 5%;
+  margin-top: 8%;
   max-height: 25px;
 }
 
@@ -111,23 +112,26 @@ a:hover {
 
 .nav__links li {
   padding: inherit;
-  margin-right: 3%;
+  margin-right: 2%;
   float: right;
 }
 
-
 .nav__links__footer li, .nav__links__footer a {
   display: inline-block;
-  font-size: .8rem;
   color: #313733;
+  margin-top: 0.3rem;
 }
 
 .nav__links__footer a:last-child {
-  padding-right: 35px;
+  padding-right: 30px;
 }
 
 .nav__links__footer a:hover {
   color: #AD764A;
+}
+
+.copyright {
+  margin-top: 0.5rem;
 }
 
 .cta {
@@ -177,6 +181,7 @@ a:hover {
 
 .child_logo {
   display: block;
+  margin: 1rem;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -204,7 +209,6 @@ a:hover {
   max-width: 500px;
   margin: auto;
   margin-bottom: auto;
-  padding: auto;
 }
 
 .uppercase {
