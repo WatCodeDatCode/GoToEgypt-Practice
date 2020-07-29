@@ -3,147 +3,217 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name=”viewport” content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <link rel="shortcut icon" href="assets/kingtut.png" type="image/png">
   <title>GoToEgypt - Travel Landing Page</title>
+
+<!--
+  <style>
+    .container {
+      border: 2px solid red;
+    }
+
+    .col {
+      border: 2px dotted green;
+    }
+  </style>
+-->
 </head>
 
 <body>
 
+  <!-- Hero image and navbar -->
   <div class="hero__image">
-    <header>
-      <a class="logo" href="#"><img class="logo" src="assets/logo.svg" alt="Logo"></a>
-      <nav>
-        <ul class="nav__links">
-          <li><a href="#">Contact</a></li>
-          <li><a href="explore.html">Explore</a></li>
-          <li><a href="articles.html">Articles</a></li>
-          <li><a href="galleries.html">Galleries</a></li>
-          <li><a href="contact.html">Home</a></li>
-        </ul>
-      </nav>
-      <img class="burger__menu" src="assets/dots.svg" alt="Menu">
-    </header>
-
-    <div class="hero__text">
-      <h1>The Ancient World</h1><br>
-      <hr>
-      <p><b>Discover the awe-inspiring<br>Pyramids of Giza and ancient Egypt</b></p>
-      <p class="cta">Scroll down</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-2 col">
+          <a class="logo" href="#"><img class="logo" src="assets/logo.svg" alt="Logo"></a>
+        </div>
+        <div class="col-8 col">
+          <header>
+            <nav>
+              <ul class="nav__links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="galleries.html">Galleries</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </header>
+        </div>
+        <div class="col-2 col">
+          <img class="burger__menu" src="assets/dots.svg" alt="Menu">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col">
+          <div class="hero__text"><br><br>
+            <h1>The Ancient World</h1><br>
+            <hr>
+            <p><b>Discover the awe-inspiring<br>Pyramids of Giza and ancient Egypt</b></p>
+            <p class="cta">Scroll down</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="sections">
-    <h2><span class="uppercase">The Ancient</span><br><span>Egyptian</span> civilisation</h2>
-  </div>
+  <!-- First section -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col">
+        <div class="sections">
+          <h2><span class="uppercase">The Ancient</span><br><span>Egyptian</span> civilisation</h2>
+        </div>
 
-  <div class="parent">
-    <div class="child">
-      The ancient Egyptian civilisation, famous for its pyramids, pharaohs, mummies, and tombs, flourished for thousands of years. But what was its lasting impact?
+      </div>
+
     </div>
-    <div class="child">
-      Watch the video below to learn how ancient Egypt contributed to modern-day society with its many cultural developments, particularly in language & mathematics.
+    <div class="row">
+      <div class="col-12 col-sm-6 col">
+        The ancient Egyptian civilisation, famous for its pyramids, pharaohs, mummies, and tombs, flourished for thousands of years. But what was its lasting impact?
+      </div>
+      <div class="col-12 col-sm-6 col">
+        Watch the video below to learn how ancient Egypt contributed to modern-day society with its many cultural developments, particularly in language & mathematics.
+      </div>
     </div>
   </div>
-
   <div class="center"><iframe src="https://www.youtube-nocookie.com/embed/XyMIIrGmvYo?controls=0" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
-  <div class="sections">
-    <h2><span class="uppercase">10 Things</span><br><span>You probably didn't know <br>about</span> ancient Egypt</h2>
-  </div>
-
-  <div class="parent">
-    <div class="child">
-      <div>
-        <h3>His original name was not Tutankhamun</h3>
+  <!-- Second section with images -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col">
+        <div class="sections">
+          <h2><span class="uppercase">10 Things</span><br><span>You probably didn't know <br>about</span> ancient Egypt</h2>
+        </div>
       </div>
-      <br>
-      Tutankhamun was originally named Tutankhaten. This name, which literally means "living image of the Aten", reflected the fact that Tutankhamun's parents worshipped a sun god known as "the Aten". After a few years on the throne the young king
-      <br><br>
-      <a class="article" href="#">Read More</a>
     </div>
-    <div class="child">
-      <img class="child_img" src="assets/kingtut.png" alt="Image of King Tut">
-    </div>
-  </div>
 
-  <div class="parent">
-    <div class="child">
-      <img class="child_img" src="assets/bastet.png" alt="Image of King Tut">
-    </div>
-    <div class="child">
-      <div>
-        <h3>Cats were represented in religious practices</h3>
+    <!-- King tut section -->
+    <div class="row">
+      <div class="col-12 col-sm-6 col">
+        <div>
+          <h3>His original name was not Tutankhamun</h3>
+        </div>
+        <br>
+        Tutankhamun was originally named Tutankhaten. This name, which literally means "living image of the Aten", reflected the fact that Tutankhamun's parents worshipped a sun god known as "the Aten". After a few years on the throne the young king
+        <br><br>
+        <a class="article" href="#">Read More</a>
       </div>
-      <br>
-      Cats in ancient Egypt were represented in social and religious practices of Ancient Egypt for more than 30 centuries. Several Ancient Egyptian deities were depicted and sculptured with cat-like heads such as Mafdet, Bastet and Sekhmet,
-      representing justice, fertilitiy, and power.<span class="superscript">[1]</span> The deity Mut was also depicted as a cat and in the company of a cat.
-      <br><br>
-      <a class="article" href="#">Read More</a>
+      <div class="col-12 col-sm-6 col">
+        <img class="child_img" src="assets/kingtut_1.png" alt="Image of King Tut">
+      </div>
     </div>
+
+
+    <!-- Bastet section -->
+    <div class="row">
+      <div class="col-12 col-sm-6 col">
+        <img class="child_img" src="assets/bastet_1.png" alt="Image of Bastet">
+      </div>
+      <div class="col-12 col-sm-6 col">
+        <div>
+          <h3>Cats were represented in religious practices</h3>
+        </div>
+        <br>
+        Cats in ancient Egypt were represented in social and religious practices of Ancient Egypt for more than 30 centuries. Several Ancient Egyptian deities were depicted and sculptured with cat-like heads such as Mafdet, Bastet and Sekhmet,
+        representing justice, fertilitiy, and power.<span class="superscript">[1]</span> The deity Mut was also depicted as a cat and in the company of a cat.
+        <br><br>
+        <a class="article" href="#">Read More</a>
+      </div>
+    </div>
+
   </div>
 
   <div class="button__container">
-    <button class="cta__button" type="button" name="button">Show more &rtrif;</button>
+    <button class="cta__button" type="button" name="button">Show more &#8594;</button>
   </div>
 
-  <div class="sections">
-    <h2><span class="uppercase">Go back in time</span><br><span>With our top </span> experiences</h2>
-    <p class="p__sections">magnificent monuments, lush delta, and with its long past and <br>welcoming, story-loving people.</p>
+  <!-- Third section - Top experiences -->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12 col sections">
+        <h2><span class="uppercase">Go back in time</span><br><span>With our top </span> experiences</h2>
+        <p class="p__sections">magnificent monuments, lush delta, and with its long past and <br>welcoming, story-loving people.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-sm-4">
+        <img class="child_img" src="assets/red_pyramid.jpg" alt="Red Pyramid, Giza">
+      </div>
+      <div class="col-12 col-sm-4">
+        <img class="child_img" src="assets/pyramids_of_giza.jpg" alt="Great Pyramids, Cairo">
+      </div>
+      <div class="col-12 col-sm-4">
+        <img class="child_img" src="assets/valley_of_kings.jpg" alt="Valley of Kings">
+      </div>
+    </div>
+
   </div>
 
-  <div class="parent">
-    <div class="child">
-      <img class="child_img" src="assets/red_pyramid.jpg" alt="Red Pyramid, Giza">
+  <!-- sponsors section -->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12 col sections">
+        <h2><span class="uppercase">Thank you</span><br><span>To our sponsors and <br>Event </span> Partners</h2>
+      </div>
     </div>
-    <div class="child">
-      <img class="child_img" src="assets/pyramids_of_giza.jpg" alt="Great Pyramids, Cairo">
-    </div>
-    <div class="child">
-      <img class="child_img" src="assets/valley_of_kings.jpg" alt="Valley of Kings">
+
+    <div class="row">
+      <div class="col-12 col-sm-3 col">
+        <img class="child_logo" src="assets/logo_ng.png" alt="National Geographic Logo">
+      </div>
+      <div class="col-12 col-sm-3 col">
+        <img class="child_logo" src="assets/logo_bbc.png" alt="BBC Logo">
+      </div>
+      <div class="col-12 col-sm-3 col">
+        <img class="child_logo" src="assets/logo_lp.png" alt="Lonely Planet Logo">
+      </div>
+      <div class="col-12 col-sm-3">
+        <img class="child_logo" src="assets/logo_abb.png" alt="Air BnB Logo">
+      </div>
     </div>
   </div>
 
-  <div class="sections">
-    <h2><span class="uppercase">Thank you</span><br><span>To our sponsors and <br>Event </span> Partners</h2>
-  </div>
-
-  <div class="parent">
-    <div class="child">
-      <img class="child_logo" src="assets/logo_ng.png" alt="National Geographic Logo">
-    </div>
-    <div class="child">
-      <img class="child_logo" src="assets/logo_bbc.png" alt="BBC Logo">
-    </div>
-    <div class="child">
-      <img class="child_logo" src="assets/logo_lp.png" alt="National Geographic Logo">
-    </div>
-    <div class="child">
-      <img class="child_logo" src="assets/logo_abb.png" alt="National Geographic Logo">
-    </div>
-  </div>
 
   <div class="button__container">
-    <button class="cta__button" type="button" name="button">Book now &rtrif;</button>
+    <button class="cta__button" type="button" name="button">Book now &#8594;</button>
   </div>
 
   <div class="sections">
     <img class="img_seperator" src="assets/egyptian_chariot.png" alt="Chariot image">
   </div>
 
-  <hr class="footer__seperator">
-  <footer class="parent">
-    <p class="child__footer">All rights reserved © 2019</p>
-    <img class="child_img_footer" src="assets/logo-white.svg" alt="Logo">
-    <nav class="child__footer">
-      <ul class="nav__links__footer">
-        <li><a href="privacy.html">Privacy</a></li>
-        <li><a href="disclaimer.html">Disclaimer</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <hr class="footer__seperator">
+      <div class="row">
+        <div class="col-12 col-sm-4 col">
+          <p>All rights reserved © 2019</p>
+        </div>
+        <div class="col-12 col-sm-4">
+          <img class="child_img_footer" src="assets/logo-white.svg" alt="Logo">
+        </div>
+        <div class="col-12 col-sm-4">
+          <nav>
+            <ul class="nav__links__footer center">
+              <li><a href="privacy.html">Privacy</a></li>
+              <li><a href="disclaimer.html">Disclaimer</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
   </footer>
 
 </body>
